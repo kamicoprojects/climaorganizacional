@@ -16,10 +16,7 @@ app.layout = html.Div(children=[
     dcc.Dropdown(df['Setor'].unique(), 
                 value='Todos Departamentos', id='setor-values', clearable=False ),
     
-    html.P("Selecione uma Pergunta:"),
-    dcc.Dropdown(df['Perguntas'].unique(), 
-                value='Todas perguntas',
-                id='perguntas-values', clearable=False ),   
+     
     
 
     dcc.Graph(id='pesquisa-graph', figure=fig),   
