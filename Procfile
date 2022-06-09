@@ -1,1 +1,1 @@
-web: gunicorn climaorganizacional:app --log-file -
+web: gunicorn kamico:app --log-file -
