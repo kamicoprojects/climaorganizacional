@@ -1,1 +1,1 @@
-web: gunicorn kamico:app --log-file -
+web: gunicorn kamico:wsgi
